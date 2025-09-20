@@ -23,6 +23,30 @@
 </head>
 <!-- body starting -->
 <body class="body1">
+  
+  <!-- Preloader -->
+  <div id="preloader">
+    <img src="1000106542-removebg-preview.png" alt="Loading..." />
+    <div id="preloader-text"><h1 class="title">Phoenix&Co.</h1></div>
+  </div>
+   <script>
+    window.addEventListener('load', function ()
+     {
+      const preloader = document.getElementById('preloader');
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 500); // Match with CSS transition duration
+    }
+  );
+  </script>
+
+  <!-- Your main content -->
+  <div style="padding: 20px;">
+    <h1>Welcome to My Website!</h1>
+    <p>This is the main content of the page.</p>
+  </div>
+
   <!-- change the nav bar grid components and add different pages -->
 <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
