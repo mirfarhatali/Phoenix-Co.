@@ -1,0 +1,75 @@
+
+.bodytext3{
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+color: black;
+}
+
+.bodytext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* title */
+.title{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style : normal;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* body text */
+.bodytext2{
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.body1{
+  background-color: rgb(255, 255, 255);
+}
+/* Footer Styles */
+.footer {
+  background-color: #000; /* black background */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #f39c12; /* golden on hover */
+}
+
+.footer-icons i {
+  font-size: 20px;
+}
