@@ -29,17 +29,7 @@
     <img src="1000106542-removebg-preview.png" alt="Loading..." />
     <div id="preloader-text"><h1 class="title">Phoenix&Co.</h1></div>
   </div>
-   <script>
-    window.addEventListener('load', function ()
-     {
-      const preloader = document.getElementById('preloader');
-      preloader.style.opacity = '0';
-      setTimeout(() => {
-        preloader.style.display = 'none';
-      }, 500); // Match with CSS transition duration
-    }
-  );
-  </script>
+  
 
   <!-- Your main content -->
   <div style="padding: 20px;">
@@ -252,7 +242,18 @@ This is Phoenix & Co.
 </footer>
 
 
-
+ <script>
+    window.addEventListener('load', function ()
+    
+     {
+      const preloader = document.getElementById('preloader');
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 500); // Match with CSS transition duration
+    }
+  );
+  </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
