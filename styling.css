@@ -10,14 +10,14 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      transition: opacity 8s ease;
+      transition: opacity 2.5s ease;
     }
 
     #preloader img {
       width: 100px; /* Adjust as needed */
       height: auto;
       margin-bottom: 20px;
-      animation: bounce 3s infinite alternate;
+      animation: bounce 2.5s infinite alternate;
     }
 
     #preloader-text {
@@ -118,3 +118,4 @@ color: black;
 .footer-icons i {
   font-size: 20px;
 }
+
